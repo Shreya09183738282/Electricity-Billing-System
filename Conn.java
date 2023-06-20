@@ -6,7 +6,7 @@ public class Conn {
     Statement s;
     Conn() {
         try {
-            c = DriverManager.getConnection("jdbc:mysql:///ebs", "root", "Shreya1234$");
+            c = DriverManager.getConnection("jdbc:mysql:///ebs", "root", "");
             s = c.createStatement();
         } catch (Exception e) {
             e.printStackTrace();
